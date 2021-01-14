@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    margin: auto;
+    width: 70%;
+}
+header{
+    margin: auto;
+    width: 70%;
+    display: flex;
+    
+}
+header>img{
+    flex: 7.5;
+    width: 75%;
+}
+#headerTitle{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: white;
+    text-shadow: black 2px 2px 2px;
+}
+nav{
+    flex: 2.5;
+    background: #f4f3ee;
+
+}
+nav>img{
+    width: 40px;
+    float: right;
+   
+}
+nav>ul{
+    margin-top: 50px;
+    clear: both;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+nav>ul>li{
+    list-style: none;
+}
+nav>ul>li a{
+display: block;
+padding:10px 40px;
+text-decoration: none;
+color: #303030;
+}
+nav>ul>li a:hover{
+    background: #f9f9f9;
+    
+}
+
+#section1{
+    background: black;
+
+    color: white;
+    padding: 20px 20px;
+}
+#section1Content{
+    display: flex;
+    padding: 10px 0;
+    font-weight: 500;
+    font-size: 13px;
+    
+}
+#section1 p{
+    flex: 1;
+    
+}
+#section1 ul{
+    flex:1;
+    
+    text-align: center;
+    list-style: none;
+}
+#section1Img{
+    flex: 0.5;
+}
+#section1Img>img{
+    width: 80px;
+}
+
+
+#section2 h2{
+    margin: 20px;
+    text-decoration: underline;
+}
+
+#section2Products{
+    display: flex;
+
+}
+
+.ItemContainer{
+    
+    width: 250px;
+    text-align: center;
+    transition: 0.2s;
+    flex: 1;
+}
+.ItemContainer img{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px; 
+    border: solid 2px #303030;
+}
+.ItemContainer button{
+    margin: 10px 10px;
+    border-radius: 20px;
+    padding: 5px;
+    background: white;
+    color: #303030;
+}
+.ItemContainer button:hover{
+    cursor: pointer;
+}
+.ItemContainer:hover{
+    transform: translateY(-10px);
+}
+
+
+#section3{
+    display: flex;
+    margin-top: 20px;
+    background-color: lightslategray;
+}
+#googleMap{
+    flex: 1;
+}
+#contactForm{
+    margin-top: 60px;
+    flex:1;
+}
+#contactForm>h2{
+    margin: 20px 0;
+    text-align: center;
+    color: #303030;
+}
+#contactForm>form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+#contactForm>form>input, textarea{
+    margin: 10px ;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    
+}
+#contactForm>form textarea{
+    height: 100px;
+}
+footer{
+    height: 100px;
+    background: #303030;
+}
